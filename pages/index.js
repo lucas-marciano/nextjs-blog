@@ -6,7 +6,6 @@ import utilStyles from '../styles/utils.module.scss'
 import { getPostFromServer } from '../lib/posts'
 
 export default function Home({ posts }) {
-  console.log("posts", posts);
   return (
     <Layout home>
       <Head>
